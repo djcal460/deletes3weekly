@@ -1,6 +1,6 @@
 # Lambda Function that deletes all objects from S3 Bucket
 
-This terraform is set to create a lambda function and s3 bucket. The lambda function deletes all objects from the s3 bucket every Sunday and publishes a notification via SNS to the email address in terraform.tfvars. 
+This terraform is set to create a lambda function and s3 bucket. The lambda function deletes all objects from the s3 bucket every Sunday at 12pm and publishes a notification via SNS to the email address declared in terraform.tfvars. 
 
 ## Installation
 
